@@ -1,0 +1,44 @@
+/* .header2 p{
+
+}
+
+    font-family: 'Poppins', sans-serif;
+    
+} */
+
+/* #judul { */
+
+/* } */
+
+@font-face {
+    font-family: "safitri";
+    src: url("../Asset/Fonts/Poppins-Regular.ttf");
+    
+}
+.header2 p{
+    font-family: 'safitri', sans-serif;
+    font-size: 20px;
+    background-color: darkcyan;
+}
+body{
+    background-image: url("../Asset/Image/BG.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header1 {
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+}
+
+.header1 #judul {
+    flex :1;
+    background-color: silver;
+}
+
+.header1 p{
+    flex:1;
+    background-color: rgb(236, 203, 13);
+}
